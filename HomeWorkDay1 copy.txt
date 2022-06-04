@@ -1,0 +1,57 @@
+Book: The Swift Programming Language
+https://docs.swift.org/swift-book/
+1. Read: Control Transfer Statement - Control Flow Section
+2. Read: API Availability - Control Flow Section
+3. Read: Recursive Enumerations -
+4. Read: Subscript -
+5. Read: Convenience initializer - Initialization Section
+6. Read: Deinitialization -
+7. Read: Optional Chaining -
+9. Read: Downcasting - Type Casting Section
+10. Read. Delegation - Protocols Section
+10. Read: Optional Protocol Requirements - Protocols Section
+11. Read: Automatic Reference Counting -
+
+## Questions:
+//What is the difference between var and let?
+Var is mutable and let is constant
+
+//What is an optional?
+Const or variable that can hold a value or no value
+
+//What is optional chaining vs optional binding?
+Optional binding stores the value that you're binding in a variable. Optional chaining doesn't allows an entire block of logic to happen the same way every time. Optional binding allows an entire block of logic to happen the same way every time.
+
+//What are the different ways to unwrap an optional? How do they work? Are they safe?
+Using an if else block.
+Using Forced unwrapping.
+Using Optional binding.
+Using Optional chaining.
+Using a nil coalescing operator.
+You use optionals in situations where a value may be absent. An optional represents two possibilities: Either there is a value, and you can unwrap the optional to access that value, or there isn’t a value at all.
+("Uh I can't help you bro")
+Yes allows you to safely access the data inside the type to avoid a run-time crash
+
+//What is a closure?
+A function without a function name
+
+//What is the difference between a class and a struct?
+Structs are value types and class is a reference type
+
+//What is the syntax '??' do?
+used to return first none nil value of the two swift variables
+
+//What is a tuple?
+Group of different values. Each value can have a different data type as well
+
+//What is Any vs AnyObject?
+Any can represent an instance of any type at all, including function types and optional types. · AnyObject can represent an instance of any class type
+
+//What is a protocol?
+defines a blueprint of methods or properties that can then be adopted by classes
+
+//What is Delegation
+a controller object with a defined interface that can be used to control or modify the behavior of another object
+
+Read this article
+https://developer.apple.com/documentation/swift/choosing_between_structures_and_classes
